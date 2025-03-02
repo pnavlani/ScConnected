@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "result",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "num_",
+						"type": "uint256"
+					}
+				],
+				"name": "setResult",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Programa/ScConnected/Result.sol": "Result"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Programa/ScConnected/Result.sol": {
+			"keccak256": "0x834a9063ac9a0c8169e444d4c9a040912b7e9d8a05c0cb07a9733f9d0ea24f4c",
+			"license": "LGPL-3.0-only",
+			"urls": [
+				"bzz-raw://ff63119829313a85ad1848517ea575cc3642c1e3198fe1c13daadaeb9c78ae13",
+				"dweb:/ipfs/QmQdqfXo3PLPag6N1AWM2v8KMnRDqKjZtiPDZGT81qtxtF"
+			]
+		}
+	},
+	"version": 1
+}

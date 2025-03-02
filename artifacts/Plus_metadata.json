@@ -1,0 +1,83 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "result_",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "num1_",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "num2_",
+						"type": "uint256"
+					}
+				],
+				"name": "addition",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Programa/ScConnected/Plus.sol": "Plus"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Programa/ScConnected/Interfaces/Iresult.sol": {
+			"keccak256": "0xdf1772e0db7a95afad2caa5c249663afb556f927a5445c3c6e7f63ca644355c1",
+			"license": "LGPL-3.0-only",
+			"urls": [
+				"bzz-raw://29f8c4e50970888522f27aa92349a4da4cb0feb61fceba87770b2eb3f6a56d93",
+				"dweb:/ipfs/Qmck45Lbb7KvzcaJ5G5ebRM5Gj6YeKjREQBDpf7ukdTwbU"
+			]
+		},
+		"contracts/Programa/ScConnected/Plus.sol": {
+			"keccak256": "0x36ab4397abb0b364aa63347c29168220865b497300dc2dbb2875b4a0e551a9bb",
+			"license": "LGPL-3.0-only",
+			"urls": [
+				"bzz-raw://1ab50f5401d2e3129162fa8b832aebfc808787dc034fd2d888b3181b24ab8c99",
+				"dweb:/ipfs/QmUjE3VAP1rYkez9KUHksKkKAEsxmBHY4j3LxWbj9mHsaM"
+			]
+		}
+	},
+	"version": 1
+}
