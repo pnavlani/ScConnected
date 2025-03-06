@@ -6,5 +6,6 @@ pragma solidity 0.8.24;
 
 interface Iresult {
      function setResult(uint256 num_) external;
+     function setFee(uint newFee_) external;
      
  }
